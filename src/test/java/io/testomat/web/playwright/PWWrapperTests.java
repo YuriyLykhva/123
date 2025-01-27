@@ -10,9 +10,11 @@ import io.testomat.web.pages.pw.LoginPagePW;
 import io.testomat.web.pages.pw.ProjectsPagePW;
 import io.testomat.web.pages.pw.TestSuitesPagePW;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 
+@Tag("pwweb")
 @ExtendWith(PWContextExtension.class)
 public class PWWrapperTests {
 
@@ -36,7 +38,7 @@ public class PWWrapperTests {
                 .isLoaded()
 //                .loginUser("mmax68955@gmail.com", "d#6m@$MnPzEyg7Z");
 //                .loginUser("yu1.0710@yopmail.com", "ZSx5EN!FHFvrubH");
-                .loginUser(LoginPage.CredsWithRoles.YUKO);
+                .loginUser(LoginPage.CredsWithRoles.YULU_KOTU);
 
         new ProjectsPagePW()
                 .isLoaded()

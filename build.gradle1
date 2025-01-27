@@ -1,0 +1,11 @@
+plugins {
+    id 'java'
+    id "io.freefair.lombok" version "8.3"
+    id("io.qameta.allure") version "2.11.2"
+}
+
+apply from: 'gradle/dependencies.gradle'
+apply from: 'gradle/tests.gradle'
+
+group = 'io.testomat'
+version = '1.0-SNAPSHOT'

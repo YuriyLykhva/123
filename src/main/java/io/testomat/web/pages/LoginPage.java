@@ -52,7 +52,8 @@ public class LoginPage extends BasePage {
     public enum CredsWithRoles {
 
         MANAGER("mmax68955@gmail.com", "d#6m@$MnPzEyg7Z"),
-        YUKO("yu1.0710@yopmail.com", "ZSx5EN!FHFvrubH");
+        YUKO("yu1.0710@yopmail.com", "ZSx5EN!FHFvrubH"),
+        YULU_KOTU("criyixubrica-8216@yopmail.net", "PRe8!cKa3BavZPS");
 
         public final String mail;
         public final String password;
